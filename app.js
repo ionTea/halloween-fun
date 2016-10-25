@@ -66,7 +66,7 @@ DiffCamEngine.init({
 	initErrorCallback: initError,
 	startCompleteCallback: startComplete,
 	captureCallback: capture,
-	pixelDiffThreshold: 16
+	pixelDiffThreshold: 8
 });
 
 console.log("log pls");
