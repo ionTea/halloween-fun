@@ -60,6 +60,7 @@ function getSound() {
 }
 
 DiffCamEngine.init({
+	video: document.getElementById('video'),
 	captureIntervalTime: 50,
 	initSuccessCallback: initSuccess,
 	initErrorCallback: initError,
