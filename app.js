@@ -73,8 +73,8 @@ DiffCamEngine.init({
 	initErrorCallback: initError,
 	startCompleteCallback: startComplete,
 	captureCallback: capture,
-	pixelDiffThreshold: 16,
-	scoreThreshold: 8
+	pixelDiffThreshold: 24,
+	scoreThreshold: 4
 });
 
 function toggleVideo() {
